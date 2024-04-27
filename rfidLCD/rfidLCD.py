@@ -4,6 +4,6 @@ lcd = CharLCD(i2c_expander='PCF8574', address=0x27, port=1, cols=16, rows=2, dot
 lcd.clear()
 
 def lcdPanel():
-    lcd.write_string('Hello, World!')
+    lcd.write_string('Hello again, World!')
     
 lcdPanel()
